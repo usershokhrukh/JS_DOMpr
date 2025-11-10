@@ -70,7 +70,7 @@ elForm.addEventListener("submit", (e) => {
     }
   } else {
     sendRegis = 1;
-    elButton.textContent = "Auntificated";
+    elButton.textContent = "Authenticated";
     elButton.style.cssText = `
       background-color: rgb(19, 68, 15);
     font-family: 'Open Sans';
