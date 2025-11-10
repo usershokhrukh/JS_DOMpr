@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VSearch</title>
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./node_modules/remixicon/fonts/remixicon.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+    @keyframes warning {
+    0% {
+      transform: translateX(2px);
+    }
+    20% {
+      transform: translateX(-2px);
+    }
+    40% {
+      transform: translateX(2px);
+    }
+    60% {
+      transform: translateX(-2px);
+    }
+    80% {
+      transform: translateX(2px);
+    }
+    100% {
+      transform: translateX(-2px);
+    }
+  }
+</style>
+<body>
+  <main class="wrapper">
+    <form class="register contain">
+      <input class="register__search" type="text" placeholder="search">
+      <i class="ri-search-2-line register__icon"></i>
+      <div class="register__box">
+        <div class="register__password-box register__user-box">
+          <p class="register__input-text">
+            Username
+          </p>
+          <input class="register__box-input" type="text">
+        </div>
+
+        <div class="register__password-box">
+          <i class="ri-eye-fill register__password-show register__password-icons"></i>
+          <i class="ri-eye-off-fill register__password-hide register__password-icons"></i>
+          <p class="register__input-text">
+            Password
+          </p>
+          <input class="register__box-input" type="password">
+        </div>
+
+        <button class="register__button">
+          Sign in
+        </button>
+      </div>
+    </form>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
