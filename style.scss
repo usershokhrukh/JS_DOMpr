@@ -41,16 +41,16 @@ $warning-color: rgb(198, 17, 0);
 
   &__icon {
     position: absolute;
-    right: 10px;
-    top: 8%;
-    height: 43px;
-    width: 30px;
+    right: 12px;
+    top: 19px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: $border-color;
-    font-size: 18px;
     background-color: $bg-color-search;
+    padding: 0px 2px;
+    // background-color: red;
 
     &:hover {
       color: $bg-color-register;
@@ -138,9 +138,9 @@ $warning-color: rgb(198, 17, 0);
   &__password-show,
   &__password-hide {
     position: absolute;
-    right: 1px;
+    right: 4px;
     top: 50%;
-    width: 25px;
+    width: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
