@@ -135,7 +135,7 @@ window.addEventListener("keydown", (kEvent) => {
       const worldWide = elSearch.value.trim();
       if (!worldWide) {
         alert("Please write your site");
-      } else window.location.href = `https://${worldWide}.com`;
+      } else window.location.href = `https://${worldWide}`;
     }
   }
 
