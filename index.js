@@ -153,7 +153,7 @@ elSearchIcon.addEventListener('click', (e) => {
       
     )
   }
-
+  
 });
 
 

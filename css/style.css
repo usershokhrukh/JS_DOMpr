@@ -26,19 +26,25 @@
   justify-content: center;
   flex-direction: column;
   background-color: rgb(64, 64, 64);
-  padding: 15px 10px;
+  padding: 15px 10px 15px 10px;
   border-radius: 3px;
   box-shadow: 0px 0px 50px 10px rgb(43, 43, 43);
 }
 .register__icon {
   position: absolute;
-  top: 16%;
-  right: 20px;
+  right: 10px;
+  top: 8%;
+  height: 43px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: rgb(100, 100, 100);
   font-size: 18px;
+  background-color: rgb(21, 21, 21);
 }
 .register__icon:hover {
-  opacity: 0.8;
+  color: rgb(64, 64, 64);
 }
 .register__search {
   width: 100%;
@@ -105,13 +111,18 @@
 }
 .register__password-show, .register__password-hide {
   position: absolute;
-  right: 8px;
+  right: 1px;
   top: 50%;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: rgb(100, 100, 100);
   font-size: 20px;
+  background-color: rgb(21, 21, 21);
 }
 .register__password-show:hover, .register__password-hide:hover {
-  opacity: 0.8 !important;
+  color: rgb(64, 64, 64);
 }
 .register__password-box i:nth-child(1) {
   display: none;
@@ -122,7 +133,8 @@
 
 @media (max-width: 500px) {
   .register {
-    top: 20%;
+    padding: 10px 5px;
+    top: 3%;
   }
   .register__box {
     grid-template-columns: auto;
