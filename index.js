@@ -176,7 +176,7 @@ elSearchIcon.addEventListener("click", (e) => {
     const worldWide = elSearch.value.trim();
     if (!worldWide) {
       alert("Please write your site");
-    } else window.open(`https://www.${worldWide}.com`, "_blank");
+    } else window.open(`https://${worldWide}`, "_blank");
   }
 });
 
