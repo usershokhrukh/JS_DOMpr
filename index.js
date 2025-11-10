@@ -23,27 +23,34 @@ elForm.addEventListener("submit", (e) => {
       elText[0].style.cssText = `
       color: rgba(255, 255, 255, 0.61);
       font-weight: 500;
-      animation: warning 0.5s ease-in-out 1;`;
+      animation: warning 0.5s ease-in-out 1;
+      font-family: 'Open Sans';
+      `;
 
       elText[1].style.cssText = `
       color: rgba(243, 243, 243, 0.61);
       font-weight: 500;
-      animation: warning 0.5s ease-in-out 1;`;
+      animation: warning 0.5s ease-in-out 1;
+      font-family: 'Open Sans';`;
 
       elInputUser.style.cssText = `
-      border: 1px solid rgba(255, 81, 81, 0.61);`;
+      border: 1px solid rgba(255, 81, 81, 0.61);
+      font-family: 'Open Sans';`;
 
       elInputPassword.style.cssText = `
-      border: 1px solid rgba(255, 81, 81, 0.61);`;
+      border: 1px solid rgba(255, 81, 81, 0.61);
+      font-family: 'Open Sans';`;
     }
 
     if (!elInputUser.value.trim() && sendRegis == 0) {
       elText[0].style.cssText = `
       color: rgba(243, 243, 243, 0.61);
       font-weight: 500;
-      animation: warning 0.5s ease-in-out 1;`;
+      animation: warning 0.5s ease-in-out 1;
+      font-family: 'Open Sans';`;
       elInputUser.style.cssText = `
-      border: 1px solid rgba(255, 81, 81, 0.61);`;
+      border: 1px solid rgba(255, 81, 81, 0.61);
+      font-family: 'Open Sans';`;
     } else {
       sendRegis = 1;
     }
@@ -52,10 +59,12 @@ elForm.addEventListener("submit", (e) => {
       elText[1].style.cssText = `
       color: rgba(243, 243, 243, 0.61);
       font-weight: 500;
-      animation: warning 0.5s ease-in-out 1;`;
+      animation: warning 0.5s ease-in-out 1;
+      font-family: 'Open Sans';`;
 
       elInputPassword.style.cssText = `
-      border: 1px solid rgba(255, 81, 81, 0.61);`;
+      border: 1px solid rgba(255, 81, 81, 0.61);
+      font-family: 'Open Sans';`;
     } else {
       sendRegis = 1;
     }
@@ -64,7 +73,7 @@ elForm.addEventListener("submit", (e) => {
     elButton.textContent = "Auntificated";
     elButton.style.cssText = `
       background-color: rgb(19, 68, 15)
-    
+    font-family: 'Open Sans';
     `;
   }
 });
@@ -80,37 +89,45 @@ window.addEventListener("keydown", (kEvent) => {
         elText[0].style.cssText = `
           color: rgba(243, 243, 243, 0.61);
           font-weight: 500;
-          animation: warning 0.5s ease-in-out 1;`;
+          animation: warning 0.5s ease-in-out 1;
+          font-family: 'Open Sans';`;
         elText[1].style.cssText = `
             color: rgba(243, 243, 243, 0.61);
             font-weight: 500;
-            animation: warning 0.5s ease-in-out 1;`;
+            animation: warning 0.5s ease-in-out 1;
+            font-family: 'Open Sans';`;
 
         elInputUser.style.cssText = `
-          border: 1px solid rgba(255, 81, 81, 0.61);`;
+          border: 1px solid rgba(255, 81, 81, 0.61);
+          font-family: 'Open Sans';`;
 
         elInputPassword.style.cssText = `
-          border: 1px solid rgba(255, 81, 81, 0.61);`;
+          border: 1px solid rgba(255, 81, 81, 0.61);
+          font-family: 'Open Sans';`;
       }
 
       if (!elInputUser.value.trim() && sendRegis == 0) {
         elText[0].style.cssText = `
           color: rgba(243, 243, 243, 0.61);
           font-weight: 500;
-          animation: warning 0.5s ease-in-out 1;`;
+          animation: warning 0.5s ease-in-out 1;
+          font-family: 'Open Sans';`;
 
         elInputUser.style.cssText = `
-          border: 1px solid rgba(255, 81, 81, 0.61);`;
+          border: 1px solid rgba(255, 81, 81, 0.61);
+          font-family: 'Open Sans';`;
       }
 
       if (!elInputPassword.value.trim() && sendRegis == 0) {
         elText[1].style.cssText = `
           color: rgba(243, 243, 243, 0.61);
           font-weight: 500;
-          animation: warning 0.5s ease-in-out 1;`;
+          animation: warning 0.5s ease-in-out 1;
+          font-family: 'Open Sans';`;
 
         elInputPassword.style.cssText = `
-          border: 1px solid rgba(255, 81, 81, 0.61);`;
+          border: 1px solid rgba(255, 81, 81, 0.61);
+          font-family: 'Open Sans';`;
       }
     }
 
@@ -124,12 +141,14 @@ window.addEventListener("keydown", (kEvent) => {
 
   if (elInputUser.value.trim()) {
     elInputUser.style.cssText = `
-    border: 1px solid rgb(21, 21, 21);`;
+    border: 1px solid rgb(21, 21, 21);
+    font-family: 'Open Sans';`;
   }
 
   if (elInputPassword.value.trim()) {
     elInputPassword.style.cssText = `
-    border: 1px solid rgb(21, 21, 21);`;
+    border: 1px solid rgb(21, 21, 21);
+    font-family: 'Open Sans';`;
   }
 
   if (
@@ -137,7 +156,8 @@ window.addEventListener("keydown", (kEvent) => {
     sendRegis == 0
   ) {
     elInputUser.style.cssText = `
-    border: 1px solid rgba(255, 81, 81, 0.61);`;
+    border: 1px solid rgba(255, 81, 81, 0.61);
+    font-family: 'Open Sans';`;
   }
 
   if (
@@ -146,7 +166,8 @@ window.addEventListener("keydown", (kEvent) => {
     sendRegis == 0
   ) {
     elInputPassword.style.cssText = `
-    border: 1px solid rgba(255, 81, 81, 0.61);`;
+    border: 1px solid rgba(255, 81, 81, 0.61);
+    font-family: 'Open Sans';`;
   }
 });
 
