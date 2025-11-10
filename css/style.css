@@ -32,7 +32,7 @@
 }
 .register__icon {
   position: absolute;
-  top: 18%;
+  top: 16%;
   right: 20px;
   color: rgb(100, 100, 100);
   font-size: 18px;
@@ -84,7 +84,7 @@
   height: 40px;
   padding: 3px 5px;
   font-family: "Open Sans";
-  background-color: rgb(16, 22, 33);
+  background-color: rgb(15, 33, 68);
   border: none;
   transition: all 0.1s ease-in-out;
   border-radius: 2px;
@@ -114,10 +114,10 @@
   opacity: 0.8 !important;
 }
 .register__password-box i:nth-child(1) {
-  opacity: 0;
+  display: none;
 }
 .register__password-box i:nth-child(2) {
-  opacity: 1;
+  display: block;
 }
 
 @media (max-width: 500px) {

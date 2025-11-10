@@ -11,7 +11,7 @@ $border-color: rgb(100, 100, 100);
 $bg-color-search: rgb(21, 21, 21);
 $bg-shadow:  rgb(43, 43, 43);
 $bg-color-register: rgb(64, 64, 64);
-$bg-color-button-hover: rgb(16, 22, 33);
+$bg-color-button-hover: rgb(15, 33, 68);
 $bg-color-button: rgb(88, 94, 103); 
 $warning-color: rgb(198, 17, 0);
 
@@ -44,7 +44,7 @@ $warning-color: rgb(198, 17, 0);
 
   &__icon {
     position: absolute;
-    top: 18%;
+    top: 16%;
     right: 20px;
     color: $border-color;
     font-size: 18px;
@@ -146,11 +146,11 @@ $warning-color: rgb(198, 17, 0);
   }
 
   &__password-box i:nth-child(1) {
-    opacity: 0;
+    display: none;
   }
 
   &__password-box i:nth-child(2) {
-    opacity: 1;
+    display: block;
   }
 }
 
